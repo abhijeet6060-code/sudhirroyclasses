@@ -1,0 +1,118 @@
+# ==============================================================================
+# SUDHIR RAI CLASSES - ROBOTS.TXT
+# Optimized for Google/Bing SEO & AI Answer Engines while blocking Bad Bots
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. ALLOWED GOOD SEARCH ENGINES & AI ANSWER ENGINES (AEO / GEO Optimization)
+# ------------------------------------------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Default rule for general non-malicious crawlers
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# ------------------------------------------------------------------------------
+# 2. BLOCKED BAD BOTS, AGGRESSIVE SCRAPERS & COMPETITOR SPYING BOTS
+# ------------------------------------------------------------------------------
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSEOBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: SerpstatBot
+Disallow: /
+
+User-agent: Zoombot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: Mail.RU_Bot
+Disallow: /
+
+User-agent: Spinn3r
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: ROGERBOT
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Ezooms
+Disallow: /
+
+# ------------------------------------------------------------------------------
+# SITEMAP LOCATION
+# ------------------------------------------------------------------------------
+Sitemap: https://sudhirraiclasses.in/sitemap.xml
