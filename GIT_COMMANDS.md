@@ -1,62 +1,61 @@
-# Git Commands for Sudhir Roy Classes (`sudhirroyclasses`)
+# 🚀 Git Guide — Sudhir Roy Classes
 
-GitHub Repository: `https://github.com/abhijeet6060-code/sudhirroyclasses.git`
+📁 **Repository:** [https://github.com/abhijeet6060-code/sudhirroyclasses](https://github.com/abhijeet6060-code/sudhirroyclasses)  
+🌿 **Branch:** `main`
 
 ---
 
-## 🚀 Quick 1-Step Push (Whenever you make changes)
+## ⚡ 1-Click / 1-Line Command (Fastest Way)
 
-### In PowerShell:
+Whenever you edit files and want to save everything directly to GitHub:
+
+### 👉 **In PowerShell (VS Code Terminal / Windows PowerShell):**
 ```powershell
-git add . ; git commit -m "Updated website" ; git push origin main
+git add . ; git commit -m "Update website" ; git push origin main
 ```
 
-### In Git Bash / CMD:
+### 👉 **In Git Bash or Command Prompt:**
 ```bash
-git add . && git commit -m "Updated website" && git push origin main
+git add . && git commit -m "Update website" && git push origin main
 ```
 
 ---
 
-## 📋 Step-by-Step Commands
+## 📝 Step-by-Step Daily Workflow
 
-### Step 1: Check what changed
-```bash
-git status
-```
+If you prefer doing it step by step:
 
-### Step 2: Stage all changes
+### **1. Stage all your changes**
 ```bash
 git add .
 ```
 
-### Step 3: Commit changes with a descriptive message
+### **2. Commit with a message**
 ```bash
-git commit -m "Your commit message here"
+git commit -m "Your update message here"
 ```
 
-### Step 4: Push to GitHub (`main` branch)
+### **3. Push to GitHub**
 ```bash
 git push origin main
 ```
 
 ---
 
-## 🔄 If GitHub is ahead (Pull before pushing)
-If you get a push rejected error:
+## 🔍 Useful Helper Commands
+
+| What you want to do | Command |
+| :--- | :--- |
+| **Check modified files** | `git status` |
+| **View recent commit history** | `git log --oneline -n 5` |
+| **Pull latest updates from GitHub** | `git pull origin main` |
+
+---
+
+## ⚠️ If Push Gets Rejected (Remote is Ahead)
+
+Run these 2 lines:
 ```bash
 git pull --rebase origin main
 git push origin main
-```
-
----
-
-## 🛠️ First-Time / Setup Reference (Already Configured)
-```bash
-git init
-git branch -M main
-git remote add origin https://github.com/abhijeet6060-code/sudhirroyclasses.git
-git add .
-git commit -m "Initial commit"
-git push -u origin main
 ```
