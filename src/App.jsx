@@ -771,7 +771,7 @@ function KolkataGeoHubSection() {
               ))}
             </div>
 
-            <h4 style="margin: 28px 0 14px; text-align: center; color: var(--navy-dark); font-size: 1.1rem;">
+            <h4 style={{ margin: '28px 0 14px', textAlign: 'center', color: 'var(--navy-dark)', fontSize: '1.1rem' }}>
               Trending High-Intent Kolkata Search Queries
             </h4>
 
