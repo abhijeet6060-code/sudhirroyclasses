@@ -541,6 +541,17 @@ const CENTRES_DATA = [
     hubUrl: "/centres/tollygunge-south-kolkata.html",
     mapUrl: "https://www.google.com/maps/place/Sudhir+Rai+Classes/@22.4843678,88.213167,12z/data=!4m10!1m2!2m1!1ssudhir+rai+classes!3m6!1s0x3a0271f52b7d8a5b:0x29a9df1dad861ba0!8m2!3d22.4843678!4d88.3532427!15sChJzdWRoaXIgcmFpIGNsYXNzZXNaFCISc3VkaGlyIHJhaSBjbGFzc2VzkgEPY29hY2hpbmdfY2VudGVy4AEA!16s%2Fg%2F11ys8wthyp",
     courses: ["CA Foundation & Inter", "CS Executive", "CMA Inter & Final", "Personal Mentoring"]
+  },
+  {
+    name: "Howrah Student Hub (Connected via Metro / Bridge)",
+    badge: "🚆 Howrah & West Bengal Aspirants Hub",
+    address: "Girish Park Centre (10 mins via Howrah Bridge / Green Line Metro) & Live Batches",
+    landmark: "Direct Bus & Metro from Howrah Station, Howrah Maidan, Shibpur, Salkia & Liluah",
+    timings: "Mon – Sat: 7:00 AM – 8:00 PM | Sun: 9:00 AM – 1:00 PM",
+    phone: "+91 84206 92258",
+    hubUrl: "/centres/howrah-ca-cs-cma-coaching.html",
+    mapUrl: "https://www.google.com/maps/place/Sudhir+Rai+classes/@0,-0.1400757,12z/data=!4m7!1m2!2m1!1ssudhir+rai+classes!3m3!1s0xd2782f7f3f3947b:0x5103ad4fad5096a2!15sChJzdWRoaXIgcmFpIGNsYXNzZXOSAQ9jb2FjaGluZ19jZW50ZXLgAQA!16s%2Fg%2F11yz619zs4",
+    courses: ["Taxation Classes (CA/CMA/CS)", "Best CS Executive Courses", "CA Inter Taxation", "Live Interactive Batches"]
   }
 ]
 
@@ -652,23 +663,25 @@ const TOP_KOLKATA_COLLEGES = [
 ]
 
 const LOCALITIES_DATA = [
-  "Girish Park Metro Area", "Dum Dum Station", "Tollygunge South Kolkata", "Shyambazar",
-  "Sovabazar", "Bidhannagar / Salt Lake", "Howrah Station Area", "Sealdah & Rajabazar",
-  "Jadavpur & Dhakuria", "Garia & Naktala", "Park Street & Camac St", "Kankurgachi & Ultadanga",
-  "Hazra & Kalighat", "Burrabazar & MG Road", "Behala & New Alipore", "Nagerbazar & Belgharia"
+  "Girish Park Metro Area", "Dum Dum Station", "Tollygunge South Kolkata", "Howrah Station & Maidan",
+  "Shibpur & Mandirtala", "Salkia & Liluah", "Shyambazar", "Sovabazar", "Bidhannagar / Salt Lake",
+  "Sealdah & Rajabazar", "Jadavpur & Dhakuria", "Garia & Naktala", "Park Street & Camac St",
+  "Burrabazar & MG Road", "Behala & New Alipore", "Bally & Belur"
 ]
 
 const LONG_TAIL_QUERIES = [
+  "Taxation classes for ca/cma/cs exams in howrah",
+  "CS executive courses in howrah",
+  "Best cs executive courses in howrah",
+  "CA intermediate taxation classes in howrah",
+  "Best taxation teacher in india in howrah",
+  "CS executive taxation courses in howrah",
+  "How to prepare for ca foundation in kolkata",
+  "How to choose ca cma cs classes institute",
   "Best CA Inter taxation coaching institute in Girish Park Kolkata",
-  "CS Executive company law classes in Dum Dum Kolkata",
   "CMA Final costing tuition near Girish Park metro station",
   "Prof Sudhir Rai commerce classes contact number & fees",
-  "Best CA Foundation offline coaching classes in Tollygunge",
-  "Top CS Professional corporate law faculty in Kolkata",
-  "CMA Intermediate direct tax & GST coaching in North Kolkata",
-  "Best CA coaching institute near Dum Dum station",
-  "Top commerce tuition for CA CS CMA in South Kolkata",
-  "Offline CA Inter Advanced Accounting batch in Girish Park"
+  "Best CA Foundation offline coaching classes in Tollygunge"
 ]
 
 function KolkataGeoHubSection() {
@@ -680,10 +693,10 @@ function KolkataGeoHubSection() {
         <div className="section-header text-center">
           <span className="section-badge">Kolkata Geo & College Transit Hub</span>
           <h2 className="section-title">
-            Studying in Kolkata? <span className="accent">Connect With Your Nearest Centre</span>
+            Studying in Kolkata or Howrah? <span className="accent">Connect With Your Nearest Centre</span>
           </h2>
           <p className="section-subtitle">
-            Direct Blue Line Metro & suburban rail connectivity ensure students from all major Kolkata commerce colleges and neighborhoods reach class effortlessly.
+            Direct Blue Line Metro, Green Line (Howrah Maidan), and suburban rail connectivity ensure students from all major Kolkata and Howrah commerce colleges reach class effortlessly.
           </p>
         </div>
 
@@ -736,11 +749,12 @@ function KolkataGeoHubSection() {
             <div className="transit-box">
               <div className="tb-header">
                 <span className="tb-icon">🚇</span>
-                <h3>Kolkata Blue Line Metro Network</h3>
+                <h3>Kolkata Metro & Howrah Connectivity</h3>
               </div>
-              <p>All 3 centres are directly on the Blue Line Metro corridor (North-South):</p>
+              <p>Direct corridor access connecting North, South, Central Kolkata and Howrah:</p>
               <ul className="transit-list">
-                <li><strong>Girish Park Centre:</strong> 2 mins walk from Girish Park Metro Station (Gate 2).</li>
+                <li><strong>Girish Park Centre:</strong> 2 mins walk from Girish Park Metro (Gate 2) & 10 mins from Howrah Bridge.</li>
+                <li><strong>Howrah Hub:</strong> Howrah Maidan / Station Green Line direct connection & AC bus routes.</li>
                 <li><strong>Dum Dum Centre:</strong> 2 mins walk from Dum Dum Metro & Suburban Interchange.</li>
                 <li><strong>Tollygunge Centre:</strong> Steps from Mahanayak Uttam Kumar / Netaji Metro.</li>
               </ul>
@@ -751,11 +765,11 @@ function KolkataGeoHubSection() {
                 <span className="tb-icon">🚆</span>
                 <h3>Suburban Railway & Howrah / Sealdah</h3>
               </div>
-              <p>Hassle-free daily commute for suburban students:</p>
+              <p>Hassle-free daily commute for suburban and Howrah students:</p>
               <ul className="transit-list">
-                <li><strong>From Howrah Station:</strong> 15 mins via MG Road / Vivekananda Road buses & autos to Girish Park.</li>
+                <li><strong>From Howrah Station & Maidan:</strong> 10-15 mins via Vivekananda Road buses & autos to Girish Park.</li>
                 <li><strong>From Sealdah Main:</strong> Direct suburban train to Dum Dum (8 mins) or auto to Girish Park (10 mins).</li>
-                <li><strong>From Barrackpore / Barasat:</strong> Direct local trains arriving at Dum Dum platform.</li>
+                <li><strong>From Shibpur / Liluah / Salkia:</strong> Direct auto & bus routes across 1st & 2nd Hooghly Bridges.</li>
               </ul>
             </div>
           </div>
@@ -772,7 +786,7 @@ function KolkataGeoHubSection() {
             </div>
 
             <h4 style={{ margin: '28px 0 14px', textAlign: 'center', color: 'var(--navy-dark)', fontSize: '1.1rem' }}>
-              Trending High-Intent Kolkata Search Queries
+              Trending High-Intent Kolkata & Howrah Search Queries
             </h4>
 
             <div className="longtail-queries-grid">
@@ -793,20 +807,36 @@ function KolkataGeoHubSection() {
 // ─── BLOGS & AEO GUIDES SECTION ───────────────────────────────────────────────
 const BLOGS_DATA = [
   {
+    id: 'how-to-choose',
+    title: "How to Choose CA CMA CS Classes Institute: 8-Step Selection Guide",
+    desc: "Critical guide on evaluating faculty experience, taxation depth, test series, and batch sizes in Kolkata & Howrah by Prof. Sudhir Rai.",
+    tag: "Institute Guide",
+    link: "/blogs/how-to-choose-best-ca-cma-cs-coaching-institute.html",
+    icon: "🎯"
+  },
+  {
     id: 'ca-inter',
-    title: "How to Master CA Inter Taxation & Corporate Law: Guide by Prof. Sudhir Rai",
-    desc: "Proven strategy to score 70+ in ICAI CA Intermediate Taxation and Corporate Laws with expert guidance in Kolkata.",
+    title: "CA Intermediate Taxation Classes & Law: Exemption Guide",
+    desc: "Proven strategy to score 70+ in ICAI CA Intermediate Taxation (Direct Tax & GST) and Corporate Laws in Kolkata & Howrah.",
     tag: "CA Intermediate",
     link: "/blogs/how-to-prepare-for-ca-inter-taxation-law-kolkata.html",
     icon: "📘"
   },
   {
     id: 'cs-exec',
-    title: "CS Executive Examination Strategy: Module 1 & 2 Passing Plan",
-    desc: "Comprehensive guide to clearing ICSI CS Executive Company Law, JIGL, Securities Laws, and Tax Laws in first attempt.",
+    title: "Best CS Executive Courses & Taxation Strategy in Kolkata & Howrah",
+    desc: "Comprehensive guide to clearing ICSI CS Executive Company Law, JIGL, Securities Laws, and Tax Laws under Prof. Sudhir Rai.",
     tag: "CS Executive",
     link: "/blogs/best-cs-executive-coaching-strategy-kolkata.html",
     icon: "⚖️"
+  },
+  {
+    id: 'ca-foundation',
+    title: "How to Prepare for CA Foundation in Kolkata: 90-Day Passing Strategy",
+    desc: "Subject-wise roadmap for Accounting, Business Laws, Quantitative Aptitude & Economics to score 300+ marks.",
+    tag: "CA Foundation",
+    link: "/blogs/ca-foundation-preparation-strategy-study-plan-kolkata.html",
+    icon: "🏆"
   },
   {
     id: 'cma-final',
@@ -818,19 +848,11 @@ const BLOGS_DATA = [
   },
   {
     id: 'institute-feature',
-    title: "Why Sudhir Rai Classes is Kolkata's Top Commerce Institute",
-    desc: "Comprehensive review of Sudhir Rai Classes in Kolkata offering offline coaching across Girish Park, Dum Dum & Tollygunge.",
+    title: "Why Sudhir Rai Classes is Kolkata & Howrah's Top Commerce Institute",
+    desc: "Comprehensive review of Sudhir Rai Classes offering offline coaching across Girish Park, Dum Dum, Tollygunge & Howrah Hub.",
     tag: "Institute Feature",
     link: "/blogs/top-ca-cs-cma-coaching-centres-girish-park-dum-dum-tollygunge.html",
     icon: "🏫"
-  },
-  {
-    id: 'ca-foundation',
-    title: "CA Foundation 90-Day Passing Strategy & Study Plan",
-    desc: "Comprehensive subject-wise study roadmap for Accounting, Business Laws, Quantitative Aptitude & Economics to score 300+ marks.",
-    tag: "CA Foundation",
-    link: "/blogs/ca-foundation-preparation-strategy-study-plan-kolkata.html",
-    icon: "🎯"
   },
   {
     id: 'course-comparison',
@@ -1005,8 +1027,16 @@ function TestimonialsSection() {
 // ─── AEO & GEO FAQ SECTION (KNOWLEDGE BASE WITH LONG-TAIL QUESTIONS) ─────────
 const faqs = [
   {
-    question: "Which is the best coaching institute for CA, CS, and CMA in Kolkata?",
-    answer: "Sudhir Rai Classes is widely recognized as Kolkata's top coaching institute for CA (Foundation, Inter, Final), CS (Executive, Professional), and CMA exams. Founded in 2006 by Prof. Sudhir Rai with 20+ years of expert teaching experience, the institute operates three offline centres at Girish Park, Dum Dum, and Tollygunge, having successfully mentored over 2,500 students."
+    question: "Which is the best coaching institute for CA, CS, and CMA in Kolkata & Howrah?",
+    answer: "Sudhir Rai Classes is widely recognized as Kolkata & Howrah's top coaching institute for CA (Foundation, Inter, Final), CS (Executive, Professional), and CMA exams. Founded in 2006 by Prof. Sudhir Rai with 20+ years of expert teaching experience, the institute operates offline centres at Girish Park, Dum Dum, and Tollygunge with seamless 10-minute connectivity for Howrah students, having successfully mentored over 2,500 students."
+  },
+  {
+    question: "Where can I find the best taxation classes for CA/CMA/CS exams in Howrah?",
+    answer: "Sudhir Rai Classes offers the premier taxation coaching for CA Inter (Income Tax & GST), CS Executive Tax Laws, and CMA Taxation. Mentored by Prof. Sudhir Rai (20+ yrs experience), Howrah students can attend batches at our Girish Park centre (10 mins from Howrah Bridge/Metro) or join live hybrid classes."
+  },
+  {
+    question: "What are the best CS Executive courses in Howrah and Kolkata?",
+    answer: "Sudhir Rai Classes provides specialized ICSI CS Executive coaching covering Company Law, Tax Laws & Practice, JIGL, and Corporate Accounting with regular evaluated test series and clause-by-clause analysis."
   },
   {
     question: "Where can I find the best CA Inter taxation and law offline classes near Girish Park metro?",
@@ -1017,8 +1047,8 @@ const faqs = [
     answer: "Sudhir Rai Classes at Dum Dum Station Area provides comprehensive offline coaching for ICMAI CMA Final and Intermediate subjects including Strategic Cost Management, Direct Tax Laws, and Financial Accounting with regular mock tests."
   },
   {
-    question: "Who is the best faculty for CA, CS, and CMA corporate law and taxation in Kolkata?",
-    answer: "Prof. Sudhir Rai is highly rated in Kolkata with 20+ years of dedicated teaching experience. He personally teaches core scoring subjects across CA, CS, and CMA through conceptual clarity, memory formulas, and daily random class questions."
+    question: "Who is the best faculty for CA, CS, and CMA corporate law and taxation in Kolkata & Howrah?",
+    answer: "Prof. Sudhir Rai is highly rated across West Bengal with 20+ years of dedicated teaching experience. He personally teaches core scoring subjects across CA, CS, and CMA through conceptual clarity, memory formulas, and daily random class questions."
   },
   {
     question: "What are the batch timings for offline CA Foundation and CS Executive coaching at Tollygunge centre?",
@@ -1050,7 +1080,7 @@ function FAQSection() {
             Frequently Asked <span className="accent">Questions (FAQ)</span>
           </h2>
           <p className="section-subtitle">
-            Get instant answers regarding CA, CS, and CMA classes, batch timings, locations, and admission guidelines in Kolkata.
+            Get instant answers regarding CA, CS, and CMA classes, batch timings, locations, and admission guidelines in Kolkata & Howrah.
           </p>
         </div>
 
@@ -1206,12 +1236,14 @@ function ContactSection() {
                   <option value="CA Coaching (Foundation/Inter/Final)">CA Coaching (Foundation / Inter / Final)</option>
                   <option value="CS Coaching (Executive/Professional)">CS Coaching (Executive / Professional)</option>
                   <option value="CMA Coaching (Foundation/Inter/Final)">CMA Coaching (Foundation / Inter / Final)</option>
+                  <option value="CA Inter Taxation Classes">CA Inter Taxation Classes (Direct Tax & GST)</option>
+                  <option value="CS Executive Taxation & Law">CS Executive Taxation & Law Courses</option>
                   <option value="International Courses (CFA/CPA/ACCA/CMA US)">International Courses (CFA / CPA / ACCA / CMA US)</option>
                 </select>
               </div>
 
               <div className="form-group">
-                <label htmlFor="enquiry-centre">Preferred Kolkata Centre *</label>
+                <label htmlFor="enquiry-centre">Preferred Centre / Hub *</label>
                 <select
                   id="enquiry-centre"
                   name="centre"
@@ -1221,6 +1253,7 @@ function ContactSection() {
                   required
                 >
                   <option value="Girish Park Centre">Girish Park Centre (Vivekananda Road)</option>
+                  <option value="Howrah Student Hub">Howrah Student Hub (10 mins from Howrah Bridge)</option>
                   <option value="Dum Dum Centre">Dum Dum Centre</option>
                   <option value="Tollygunge Centre">Tollygunge Centre</option>
                 </select>
@@ -1283,9 +1316,10 @@ function Footer() {
         </div>
 
         <div className="footer-col">
-          <h4 className="footer-title">Kolkata Centres Hubs</h4>
+          <h4 className="footer-title">Centres & Geo-Hubs</h4>
           <ul className="footer-menu">
             <li><a href="/centres/girish-park-north-kolkata.html">📍 Girish Park Head Centre</a></li>
+            <li><a href="/centres/howrah-ca-cs-cma-coaching.html">📍 Howrah Student Hub</a></li>
             <li><a href="/centres/dum-dum-station.html">📍 Dum Dum Station Centre</a></li>
             <li><a href="/centres/tollygunge-south-kolkata.html">📍 Tollygunge South Hub</a></li>
             <li>⏰ Mon – Sat: 7 AM – 8 PM</li>
@@ -1294,9 +1328,9 @@ function Footer() {
         </div>
 
         <div className="footer-col">
-          <h4 className="footer-title">Long-Tail SEO Searches</h4>
+          <h4 className="footer-title">Top Ranking Searches</h4>
           <p className="seo-tags-paragraph">
-            best CA coaching in Girish Park Kolkata | CA Inter taxation classes Dum Dum | CS Executive company law classes Tollygunge | CMA Final costing tuition Kolkata | Prof Sudhir Rai commerce classes contact | CA Foundation coaching near Girish Park metro | CS Professional corporate law classes Kolkata.
+            taxation classes for ca/cma/cs exams in howrah | best cs executive courses in howrah | ca intermediate taxation classes in howrah | best taxation teacher in india in howrah | cs executive taxation courses in howrah | how to prepare for ca foundation in kolkata | how to choose ca cma cs classes institute | best CA coaching in Girish Park Kolkata.
           </p>
         </div>
       </div>

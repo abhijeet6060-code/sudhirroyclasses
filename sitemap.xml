@@ -3,101 +3,105 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Homepage -->
   <url>
     <loc>https://sudhirraiclasses.in/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
+
+  <!-- Dedicated Kolkata & Howrah Geo-Centre Hubs -->
   <url>
-    <loc>https://sudhirraiclasses.in/#courses</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://sudhirraiclasses.in/centres/howrah-ca-cs-cma-coaching.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://sudhirraiclasses.in/#centres</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://sudhirraiclasses.in/#localities</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://sudhirraiclasses.in/centres/girish-park-north-kolkata.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://sudhirraiclasses.in/#faq</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://sudhirraiclasses.in/centres/dum-dum-station.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://sudhirraiclasses.in/#contact</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.80</priority>
+    <loc>https://sudhirraiclasses.in/centres/tollygunge-south-kolkata.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
   </url>
-  <!-- AEO & GEO Blog Articles -->
+
+  <!-- AEO & GEO Knowledge Base & Blog Articles -->
   <url>
-    <loc>https://sudhirraiclasses.in/blogs/how-to-prepare-for-ca-inter-taxation-law-kolkata.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://sudhirraiclasses.in/blogs/best-cs-executive-coaching-strategy-kolkata.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://sudhirraiclasses.in/blogs/cma-final-costing-taxation-preparation-tips.html</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://sudhirraiclasses.in/blogs/top-ca-cs-cma-coaching-centres-girish-park-dum-dum-tollygunge.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <loc>https://sudhirraiclasses.in/blogs/how-to-choose-best-ca-cma-cs-coaching-institute.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://sudhirraiclasses.in/blogs/ca-foundation-preparation-strategy-study-plan-kolkata.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.88</priority>
   </url>
   <url>
-    <loc>https://sudhirraiclasses.in/blogs/ca-vs-cs-vs-cma-course-comparison-career-guide.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <loc>https://sudhirraiclasses.in/blogs/how-to-prepare-for-ca-inter-taxation-law-kolkata.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.88</priority>
   </url>
   <url>
-    <loc>https://sudhirraiclasses.in/blogs/how-to-score-exemption-in-gst-and-indirect-taxation-kolkata.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <loc>https://sudhirraiclasses.in/blogs/best-cs-executive-coaching-strategy-kolkata.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.88</priority>
   </url>
   <url>
     <loc>https://sudhirraiclasses.in/blogs/ca-inter-cost-and-management-accounting-formula-handbook-strategy.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/how-to-score-exemption-in-gst-and-indirect-taxation-kolkata.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://sudhirraiclasses.in/blogs/ca-final-direct-tax-international-taxation-roadmap-kolkata.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/cma-final-costing-taxation-preparation-tips.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/top-ca-cs-cma-coaching-centres-girish-park-dum-dum-tollygunge.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/ca-vs-cs-vs-cma-course-comparison-career-guide.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   <url>
     <loc>https://sudhirraiclasses.in/blogs/bcom-with-ca-cs-cma-study-balance-guide-kolkata-colleges.html</loc>
-    <lastmod>2026-08-31</lastmod>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.90</priority>
+    <priority>0.85</priority>
   </url>
 </urlset>
