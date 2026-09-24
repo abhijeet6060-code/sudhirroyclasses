@@ -807,6 +807,22 @@ function KolkataGeoHubSection() {
 // ─── BLOGS & AEO GUIDES SECTION ───────────────────────────────────────────────
 const BLOGS_DATA = [
   {
+    id: 'who-is-sudhir-rai',
+    title: "Who is Prof. Sudhir Rai? Biography, Teaching Experience & Classes",
+    desc: "Complete profile of Kolkata's premier commerce educator with 20+ years experience, 2,500+ rankers, and signature teaching pedagogy.",
+    tag: "Faculty Profile",
+    link: "/blogs/who-is-prof-sudhir-rai-commerce-classes-kolkata.html",
+    icon: "👨‍🏫"
+  },
+  {
+    id: 'cs-govt-jobs',
+    title: "Company Secretary Government Jobs: SEBI, PSU Recruitment & Salary Guide",
+    desc: "Comprehensive roadmap to cracking SEBI Grade A, ONGC, IOCL, BHEL, MCA, and Public Sector Bank jobs with pay scales up to ₹24 LPA.",
+    tag: "Rising Trend",
+    link: "/blogs/company-secretary-government-jobs-sebi-psu-salary-scope.html",
+    icon: "🏛️"
+  },
+  {
     id: 'how-to-choose',
     title: "How to Choose CA CMA CS Classes Institute: 8-Step Selection Guide",
     desc: "Critical guide on evaluating faculty experience, taxation depth, test series, and batch sizes in Kolkata & Howrah by Prof. Sudhir Rai.",
@@ -929,16 +945,23 @@ function BlogsSection() {
           ))}
         </div>
 
-        {BLOGS_DATA.length > 6 && (
-          <div className="blogs-toggle-container">
+        <div className="blogs-toggle-container" style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap', marginTop: '30px' }}>
+          {BLOGS_DATA.length > 6 && (
             <button
               className="blogs-toggle-btn"
               onClick={() => setShowAll(!showAll)}
             >
               {showAll ? "Show Top Articles ↑" : `View All Articles (${BLOGS_DATA.length}) ↓`}
             </button>
-          </div>
-        )}
+          )}
+          <a
+            href="/blogs/"
+            className="blogs-toggle-btn"
+            style={{ textDecoration: 'none', background: 'var(--navy-dark)', color: '#ffffff', borderColor: 'var(--navy-dark)' }}
+          >
+            📚 Browse Main Topic Cluster Hub (12 Guides) →
+          </a>
+        </div>
       </div>
     </section>
   )
