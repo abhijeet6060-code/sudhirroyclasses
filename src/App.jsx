@@ -510,37 +510,37 @@ function SyllabusMatrixSection() {
 // ─── CENTRES SECTION ──────────────────────────────────────────────────────────
 const CENTRES_DATA = [
   {
-    name: "Girish Park Centre (Head Centre)",
-    badge: "🏛️ Central & North Kolkata Hub",
+    name: "Girish Park Centre (CS & CA Classes Near Me)",
+    badge: "🏛️ Central & North Kolkata Hub • Metro Gate 2",
     address: "3rd Floor, 79/1B, Vivekananda Road, Girish Park, Kolkata - 700007",
     landmark: "Opposite Commercial Hub / 2 Mins Walk from Girish Park Metro Gate 2",
     timings: "Mon – Sat: 7:00 AM – 8:00 PM | Sun: 9:00 AM – 1:00 PM",
     phone: "+91 84206 92258",
     hubUrl: "/centres/girish-park-north-kolkata.html",
     mapUrl: "https://www.google.com/maps/place/Sudhir+Rai+classes/@0,-0.1400757,12z/data=!4m7!1m2!2m1!1ssudhir+rai+classes!3m3!1s0xd2782f7f3f3947b:0x5103ad4fad5096a2!15sChJzdWRoaXIgcmFpIGNsYXNzZXOSAQ9jb2FjaGluZ19jZW50ZXLgAQA!16s%2Fg%2F11yz619zs4",
-    courses: ["CA Foundation & Inter", "CS Executive & Prof", "CMA Foundation & Final", "Direct Tax & Law"]
+    courses: ["CS Executive & CSEET", "CA Foundation & Inter", "CMA Foundation & Final", "Direct Tax & Corporate Law"]
   },
   {
-    name: "Dum Dum Centre",
-    badge: "🚆 North Suburbs & Airport Corridor",
+    name: "Dum Dum Centre (CS & CA Classes Near Me)",
+    badge: "🚆 North Suburbs & Airport Corridor • Station Area",
     address: "Sudhir Rai Classes, Dum Dum Station Area, Kolkata - 700028",
     landmark: "2 Mins Walking Distance from Dum Dum Junction Railway Station & Metro",
     timings: "Mon – Sat: 7:00 AM – 7:30 PM | Sun: 9:00 AM – 1:00 PM",
     phone: "+91 84206 92258",
     hubUrl: "/centres/dum-dum-station.html",
     mapUrl: "https://www.google.com/maps/place/Sudhir+Rai+Classes/@22.6316168,88.2543661,12z/data=!4m10!1m2!2m1!1ssudhir+rai+classes!3m6!1s0x39f89d841349aded:0xb0df0065f2e25d80!8m2!3d22.6316168!4d88.3944418!15sChJzdWRoaXIgcmFpIGNsYXNzZXNaFCISc3VkaGlyIHJhaSBjbGFzc2VzkgEPY29hY2hpbmdfY2VudGVy4AEA!16s%2Fg%2F11yr9gn_h1",
-    courses: ["CA Inter & Final", "CS Executive Modules", "CMA Costing & DT", "Regular & Weekend Batches"]
+    courses: ["CS Executive Modules", "CA Inter & Foundation", "CMA Costing & DT", "Regular & Weekend Batches"]
   },
   {
-    name: "Tollygunge Centre",
-    badge: "🚇 South Kolkata Hub",
+    name: "Tollygunge Centre (CS & CA Classes Near Me)",
+    badge: "🚇 South Kolkata Hub • Tollygunge Metro",
     address: "Sudhir Rai Classes, Tollygunge, South Kolkata - 700033",
     landmark: "Direct Access via Tollygunge / Mahanayak Uttam Kumar Metro Station",
     timings: "Mon – Sat: 7:00 AM – 7:30 PM | Sun: 9:00 AM – 1:00 PM",
     phone: "+91 84206 92258",
     hubUrl: "/centres/tollygunge-south-kolkata.html",
     mapUrl: "https://www.google.com/maps/place/Sudhir+Rai+Classes/@22.4843678,88.213167,12z/data=!4m10!1m2!2m1!1ssudhir+rai+classes!3m6!1s0x3a0271f52b7d8a5b:0x29a9df1dad861ba0!8m2!3d22.4843678!4d88.3532427!15sChJzdWRoaXIgcmFpIGNsYXNzZXNaFCISc3VkaGlyIHJhaSBjbGFzc2VzkgEPY29hY2hpbmdfY2VudGVy4AEA!16s%2Fg%2F11ys8wthyp",
-    courses: ["CA Foundation & Inter", "CS Executive", "CMA Inter & Final", "Personal Mentoring"]
+    courses: ["CS Executive & CSEET", "CA Foundation & Inter", "CMA Inter & Final", "Personal Mentoring"]
   },
   {
     name: "Howrah Student Hub (Connected via Metro / Bridge)",
@@ -560,12 +560,12 @@ function CentresSection() {
     <section id="centres" className="section centres-section">
       <div className="container">
         <div className="section-header text-center">
-          <span className="section-badge">Offline Learning Hubs</span>
+          <span className="section-badge">Offline Learning Hubs Near You</span>
           <h2 className="section-title">
-            Our Classroom <span className="accent">Centres in Kolkata</span>
+            Find CS, CA &amp; CMA Classes <span className="accent">Near Me in Kolkata</span>
           </h2>
           <p className="section-subtitle">
-            Experience face-to-face mentorship with Prof. Sudhir Rai across 3 prime metro-connected hubs in Kolkata.
+            Searching for &ldquo;CS classes near me&rdquo; or top CA/CMA coaching? Choose your nearest metro-connected centre at Girish Park, Dum Dum, or Tollygunge for face-to-face mentorship with Prof. Sudhir Rai.
           </p>
         </div>
 
@@ -1050,6 +1050,10 @@ function TestimonialsSection() {
 // ─── AEO & GEO FAQ SECTION (KNOWLEDGE BASE WITH LONG-TAIL QUESTIONS) ─────────
 const faqs = [
   {
+    question: "Where can I find CS (Company Secretary) classes near me in Girish Park, Dum Dum, or Tollygunge?",
+    answer: "Sudhir Rai Classes offers premier offline coaching for Company Secretary (CSEET, CS Executive, CS Professional) across 3 strategically located Kolkata centres: Girish Park (79/1B Vivekananda Road, 2 mins from Metro Gate 2), Dum Dum (Station Area & Metro Junction), and Tollygunge (near Mahanayak Uttam Kumar Metro). Taught directly by Prof. Sudhir Rai with 20+ years of teaching excellence and 2,500+ rankers."
+  },
+  {
     question: "Which is the best coaching institute for CA, CS, and CMA in Kolkata & Howrah?",
     answer: "Sudhir Rai Classes is widely recognized as Kolkata & Howrah's top coaching institute for CA (Foundation, Inter, Final), CS (Executive, Professional), and CMA exams. Founded in 2006 by Prof. Sudhir Rai with 20+ years of expert teaching experience, the institute operates offline centres at Girish Park, Dum Dum, and Tollygunge with seamless 10-minute connectivity for Howrah students, having successfully mentored over 2,500 students."
   },
@@ -1353,7 +1357,7 @@ function Footer() {
         <div className="footer-col">
           <h4 className="footer-title">Top Ranking Searches</h4>
           <p className="seo-tags-paragraph">
-            taxation classes for ca/cma/cs exams in howrah | best cs executive courses in howrah | ca intermediate taxation classes in howrah | best taxation teacher in india in howrah | cs executive taxation courses in howrah | how to prepare for ca foundation in kolkata | how to choose ca cma cs classes institute | best CA coaching in Girish Park Kolkata.
+            cs classes near me | company secretary classes near me | ca classes near me | cma classes near me | cs classes near me girish park | cs classes near me dum dum | cs classes near me tollygunge | best cs executive courses in kolkata | ca intermediate taxation classes in kolkata | best taxation teacher in kolkata | taxation classes for ca/cma/cs exams in howrah | best CA coaching in Girish Park Kolkata.
           </p>
         </div>
       </div>
