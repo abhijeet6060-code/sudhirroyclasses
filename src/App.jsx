@@ -52,7 +52,7 @@ function Navbar() {
       <div className="nav-container">
         <button type="button" className="nav-logo" onClick={() => scrollTo("home")} aria-label="Sudhir Rai Classes Homepage">
           <div className="logo-img-wrapper">
-            <img src="/images/logo.jpeg" alt="Sudhir Rai Classes - Best CA CS CMA Classes in Kolkata" />
+            <img src="/images/logo.jpeg" alt="Sudhir Rai Classes - CA, CS and CMA coaching in Kolkata" width="52" height="52" decoding="async" />
           </div>
           <div className="logo-text">
             <span className="logo-title">Sudhir Rai Classes</span>
@@ -172,6 +172,10 @@ function Hero() {
                 onError={(e) => { e.target.onerror = null; e.target.src = "/photo.webp"; }} 
                 alt="Prof. Sudhir Rai - Master Educator CA CS CMA Kolkata" 
                 className="faculty-hero-img" 
+                width="100"
+                height="100"
+                fetchPriority="high"
+                decoding="async"
               />
             </div>
             <h3>Prof. Sudhir Rai</h3>
@@ -670,18 +674,12 @@ const LOCALITIES_DATA = [
 ]
 
 const LONG_TAIL_QUERIES = [
-  "Taxation classes for ca/cma/cs exams in howrah",
-  "CS executive courses in howrah",
-  "Best cs executive courses in howrah",
-  "CA intermediate taxation classes in howrah",
-  "Best taxation teacher in india in howrah",
-  "CS executive taxation courses in howrah",
-  "How to prepare for ca foundation in kolkata",
-  "How to choose ca cma cs classes institute",
-  "Best CA Inter taxation coaching institute in Girish Park Kolkata",
-  "CMA Final costing tuition near Girish Park metro station",
-  "Prof Sudhir Rai commerce classes contact number & fees",
-  "Best CA Foundation offline coaching classes in Tollygunge"
+  "How should I plan CA Foundation preparation with college?",
+  "What changed in the current CSEET study material?",
+  "How do I prepare Company Law answers for CS Executive?",
+  "How can I choose between CA, CS and CMA after Class 12?",
+  "How do I balance B.Com, commuting and professional exam preparation?",
+  "What should I ask before joining an offline coaching batch?"
 ]
 
 function KolkataGeoHubSection() {
@@ -840,19 +838,27 @@ const BLOGS_DATA = [
   },
   {
     id: 'cs-exec',
-    title: "Best CS Executive Courses & Taxation Strategy in Kolkata & Howrah",
-    desc: "Comprehensive guide to clearing ICSI CS Executive Company Law, JIGL, Securities Laws, and Tax Laws under Prof. Sudhir Rai.",
+    title: "CS Executive Study Plan 2027: Complete Preparation Strategy",
+    desc: "A current-syllabus study timetable with answer-writing, revision and mock-test guidance for CS Executive students.",
     tag: "CS Executive",
-    link: "/blogs/best-cs-executive-coaching-strategy-kolkata.html",
+    link: "/blogs/cs-executive-study-plan-2027-preparation-strategy.html",
     icon: "⚖️"
   },
   {
     id: 'ca-foundation',
-    title: "How to Prepare for CA Foundation in Kolkata: 90-Day Passing Strategy",
-    desc: "Subject-wise roadmap for Accounting, Business Laws, Quantitative Aptitude & Economics to score 300+ marks.",
+    title: "CA Foundation Study Plan 2027: 3-Month & 6-Month Strategy",
+    desc: "A realistic current-scheme plan with subject strategies, revision guidance and mock-test practice.",
     tag: "CA Foundation",
-    link: "/blogs/ca-foundation-preparation-strategy-study-plan-kolkata.html",
+    link: "/blogs/ca-foundation-study-plan-2027-3-month-6-month-preparation.html",
     icon: "🏆"
+  },
+  {
+    id: 'cseet-2027',
+    title: "CSEET 2027 Syllabus, Exam Pattern & Preparation Guide",
+    desc: "An up-to-date guide to the restructured CSEET papers, official ICSI material and a 3-month plan.",
+    tag: "CSEET",
+    link: "/blogs/cseet-2027-syllabus-exam-pattern-preparation-guide.html",
+    icon: "📝"
   },
   {
     id: 'cma-final',
@@ -872,10 +878,10 @@ const BLOGS_DATA = [
   },
   {
     id: 'course-comparison',
-    title: "CA vs CS vs CMA: Which Course is Best After 12th & Graduation?",
-    desc: "Complete career roadmap comparing Chartered Accountancy, Company Secretary, and Cost & Management Accountancy in Kolkata.",
+    title: "CA vs CS vs CMA After 12th: Course & Career Guide",
+    desc: "A neutral comparison of course focus, skills, career paths and how students can choose.",
     tag: "Career Guide",
-    link: "/blogs/ca-vs-cs-vs-cma-course-comparison-career-guide.html",
+    link: "/blogs/ca-vs-cs-vs-cma-after-12th-comparison-career-guide.html",
     icon: "🌐"
   },
   {
@@ -904,10 +910,10 @@ const BLOGS_DATA = [
   },
   {
     id: 'bcom-balance',
-    title: "How to Balance B.Com (Calcutta Univ / St. Xavier's) with CA/CS/CMA",
-    desc: "Daily timetable and syllabus overlap strategy for students balancing college attendance with professional coaching in Kolkata.",
+    title: "How to Balance B.Com with CA, CS or CMA",
+    desc: "A practical Kolkata timetable for college, commuting, professional preparation and revision.",
     tag: "College Guide",
-    link: "/blogs/bcom-with-ca-cs-cma-study-balance-guide-kolkata-colleges.html",
+    link: "/blogs/bcom-with-ca-cs-cma-study-balance-guide-kolkata.html",
     icon: "🎓"
   }
 ]
@@ -1317,7 +1323,7 @@ function Footer() {
       <div className="container footer-top-grid">
         <div className="footer-col brand-col">
           <div className="footer-logo">
-            <img src="/images/logo.jpeg" alt="Sudhir Rai Classes Logo" />
+            <img src="/images/logo.jpeg" alt="Sudhir Rai Classes logo" width="52" height="52" loading="lazy" decoding="async" />
             <span className="fl-name">Sudhir Rai Classes</span>
           </div>
           <p className="footer-desc">
@@ -1355,9 +1361,9 @@ function Footer() {
         </div>
 
         <div className="footer-col">
-          <h4 className="footer-title">Top Ranking Searches</h4>
+          <h4 className="footer-title">Student Resources</h4>
           <p className="seo-tags-paragraph">
-            cs classes near me | company secretary classes near me | ca classes near me | cma classes near me | cs classes near me girish park | cs classes near me dum dum | cs classes near me tollygunge | best cs executive courses in kolkata | ca intermediate taxation classes in kolkata | best taxation teacher in kolkata | taxation classes for ca/cma/cs exams in howrah | best CA coaching in Girish Park Kolkata.
+            Explore practical CA, CS and CMA preparation guides, centre details, batch information and direct admissions support for students in Kolkata.
           </p>
         </div>
       </div>
