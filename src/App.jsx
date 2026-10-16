@@ -7,17 +7,27 @@ function TopBar() {
     <div className="top-bar">
       <div className="top-bar-inner">
         <div className="tb-content">
-          <span className="top-bar-badge">Admissions 2026–27</span>
-          <span className="top-bar-text">CA • CS • CMA Coaching Kolkata</span>
+          <span className="top-bar-badge">🔥 NEW: Bokaro Steel City Centre Live!</span>
+          <span className="top-bar-text">CA • CMA • CS Coaching in Kolkata &amp; Bokaro City Centre</span>
         </div>
-        <a 
-          href="https://wa.me/918420692258?text=Hello%20Sudhir%20Rai%20Classes,%20I%20am%20interested%20in%20admissions." 
-          target="_blank" 
-          rel="noreferrer" 
-          className="top-bar-link"
-        >
-          📞 Helpline: +91 84206 92258
-        </a>
+        <div style={{ display: 'flex', gap: '14px', alignItems: 'center' }}>
+          <a 
+            href="https://wa.me/919831278449?text=Hello%20Sudhir%20Rai%20Classes,%20I%20am%20interested%20in%20admissions%20for%20Bokaro/Kolkata%20batches." 
+            target="_blank" 
+            rel="noreferrer" 
+            className="top-bar-link"
+          >
+            📞 Bokaro: +91 98312 78449
+          </a>
+          <a 
+            href="https://wa.me/918420692258?text=Hello%20Sudhir%20Rai%20Classes,%20I%20am%20interested%20in%20admissions." 
+            target="_blank" 
+            rel="noreferrer" 
+            className="top-bar-link"
+          >
+            📞 Kolkata: +91 84206 92258
+          </a>
+        </div>
       </div>
     </div>
   )
@@ -102,21 +112,22 @@ function Hero() {
         <div className="hero-text-block">
           <div className="hero-pill-badge">
             <span className="pulse-dot" />
-            Top-Ranked CA, CS & CMA Coaching Institute in Kolkata
+            Top-Ranked CA, CS &amp; CMA Coaching • Kolkata &amp; Now at Bokaro Steel City
           </div>
 
           <h1 className="hero-heading">
-            Best Offline Classes for <span className="highlight-gradient">CA • CS • CMA</span> in Kolkata
+            Best Offline Classes for <span className="highlight-gradient">CA • CS • CMA</span> in Kolkata &amp; Bokaro
           </h1>
 
           <p className="hero-subtext">
             Guided by <strong>Prof. Sudhir Rai</strong> (20+ Years Teaching Experience). 
-            Specializing in <strong>CA Foundation, Inter & Final</strong>, <strong>CS Executive & Professional</strong>, 
-            and <strong>CMA Foundation, Inter & Final</strong> across 3 offline centres at <strong>Girish Park (Vivekananda Rd)</strong>, 
-            <strong>Dum Dum</strong>, and <strong>Tollygunge</strong>.
+            Specializing in <strong>CA Foundation, Inter &amp; Final</strong>, <strong>CS Executive &amp; Professional</strong>, 
+            and <strong>CMA Foundation, Inter &amp; Final</strong> with Law &amp; Tax mastery across Kolkata centres (<strong>Girish Park</strong>, 
+            <strong>Dum Dum</strong>, <strong>Tollygunge</strong>) and our newly launched branch at <strong>City Centre, Bokaro Steel City</strong>.
           </p>
 
           <div className="hero-location-pills">
+            <span className="loc-tag" style={{ background: 'rgba(255, 107, 26, 0.2)', border: '1px solid #ff6b1a', color: '#ffedd5', fontWeight: 700 }}>🔥 City Centre, Bokaro Steel City (NEW)</span>
             <span className="loc-tag">📍 Girish Park Metro</span>
             <span className="loc-tag">📍 Dum Dum Station Area</span>
             <span className="loc-tag">📍 Tollygunge South Kolkata</span>
@@ -514,6 +525,17 @@ function SyllabusMatrixSection() {
 // ─── CENTRES SECTION ──────────────────────────────────────────────────────────
 const CENTRES_DATA = [
   {
+    name: "Bokaro Steel City Centre (City Centre Sector 4)",
+    badge: "🔥 NEW CENTRE LAUNCH • Bokaro Steel City",
+    address: "Sudhir Rai Classes, City Centre, Sector 4, Bokaro Steel City, Jharkhand - 827004",
+    landmark: "Prime Commercial Hub of City Centre (Direct Access from Chas, Dhanbad & Sectors 1-12)",
+    timings: "Started From Jan 2027 | Admissions Open 2026–2027 (Morning & Evening Batches)",
+    phone: "+91 98312 78449 / +91 84206 92258",
+    hubUrl: "/centres/bokaro-steel-city.html",
+    mapUrl: "https://maps.google.com/?q=City+Centre+Bokaro+Steel+City+Jharkhand",
+    courses: ["Specialisation in Law & Tax (CA, CMA, CS)", "CA Foundation & Inter", "CMA Foundation & Inter", "CS Executive & CSEET", "Direct Tax & GST"]
+  },
+  {
     name: "Girish Park Centre (CS & CA Classes Near Me)",
     badge: "🏛️ Central & North Kolkata Hub • Metro Gate 2",
     address: "3rd Floor, 79/1B, Vivekananda Road, Girish Park, Kolkata - 700007",
@@ -566,10 +588,10 @@ function CentresSection() {
         <div className="section-header text-center">
           <span className="section-badge">Offline Learning Hubs Near You</span>
           <h2 className="section-title">
-            Find CS, CA &amp; CMA Classes <span className="accent">Near Me in Kolkata</span>
+            Find CS, CA &amp; CMA Classes <span className="accent">in Kolkata &amp; Bokaro Steel City</span>
           </h2>
           <p className="section-subtitle">
-            Searching for &ldquo;CS classes near me&rdquo; or top CA/CMA coaching? Choose your nearest metro-connected centre at Girish Park, Dum Dum, or Tollygunge for face-to-face mentorship with Prof. Sudhir Rai.
+            Searching for &ldquo;best CA classes in Bokaro&rdquo; or top commerce coaching in Kolkata? Choose your nearest centre at City Centre (Bokaro Steel City) or Girish Park, Dum Dum, and Tollygunge (Kolkata) for face-to-face mentorship with Prof. Sudhir Rai.
           </p>
         </div>
 
@@ -804,6 +826,22 @@ function KolkataGeoHubSection() {
 
 // ─── BLOGS & AEO GUIDES SECTION ───────────────────────────────────────────────
 const BLOGS_DATA = [
+  {
+    id: 'best-ca-classes-bokaro',
+    title: "Best CA Classes in Bokaro Steel City: Now Live at City Centre",
+    desc: "Kolkata's #1 trusted commerce brand Sudhir Rai Classes brings elite CA Foundation & Inter coaching with Law and Tax specialisation to Bokaro Steel City.",
+    tag: "Bokaro Launch",
+    link: "/blogs/best-ca-classes-in-bokaro-steel-city.html",
+    icon: "🚀"
+  },
+  {
+    id: 'top-ca-cma-cs-bokaro',
+    title: "Top CA, CMA & CS Coaching in Bokaro City Centre: Law & Tax Focus",
+    desc: "Why Bokaro commerce students choose Sudhir Rai Classes. Specialisation in Law & Tax, small batches, and 20+ years of proven rankers.",
+    tag: "Commerce Guide",
+    link: "/blogs/top-ca-cma-cs-coaching-bokaro-city-centre.html",
+    icon: "🏛️"
+  },
   {
     id: 'who-is-sudhir-rai',
     title: "Who is Prof. Sudhir Rai? Biography, Teaching Experience & Classes",
@@ -1055,6 +1093,14 @@ function TestimonialsSection() {
 
 // ─── AEO & GEO FAQ SECTION (KNOWLEDGE BASE WITH LONG-TAIL QUESTIONS) ─────────
 const faqs = [
+  {
+    question: "Which is the best CA classes in Bokaro Steel City?",
+    answer: "Sudhir Rai Classes at City Centre, Sector 4, Bokaro Steel City is rated as the best CA classes in Bokaro. Originating from Kolkata in 2006, the institute brings 20+ years of teaching excellence, 2,500+ rankers, and specialized offline coaching for CA Foundation & Inter with focus on Law and Tax by Prof. Sudhir Rai."
+  },
+  {
+    question: "Where is the new Sudhir Rai Classes centre in Bokaro located?",
+    answer: "The new centre is situated in City Centre, Sector 4, Bokaro Steel City, Jharkhand - 827004, offering convenient access for students from Chas, Dhanbad, and all Bokaro sectors. You can call or WhatsApp +91 98312 78449 or +91 84206 92258 for admissions."
+  },
   {
     question: "Where can I find CS (Company Secretary) classes near me in Girish Park, Dum Dum, or Tollygunge?",
     answer: "Sudhir Rai Classes offers premier offline coaching for Company Secretary (CSEET, CS Executive, CS Professional) across 3 strategically located Kolkata centres: Girish Park (79/1B Vivekananda Road, 2 mins from Metro Gate 2), Dum Dum (Station Area & Metro Junction), and Tollygunge (near Mahanayak Uttam Kumar Metro). Taught directly by Prof. Sudhir Rai with 20+ years of teaching excellence and 2,500+ rankers."

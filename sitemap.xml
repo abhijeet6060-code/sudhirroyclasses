@@ -11,7 +11,13 @@
     <priority>1.00</priority>
   </url>
 
-  <!-- Dedicated Kolkata & Howrah Geo-Centre Hubs -->
+  <!-- Dedicated Bokaro, Kolkata & Howrah Geo-Centre Hubs -->
+  <url>
+    <loc>https://sudhirraiclasses.in/centres/bokaro-steel-city.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.98</priority>
+  </url>
   <url>
     <loc>https://sudhirraiclasses.in/centres/howrah-ca-cs-cma-coaching.html</loc>
     <lastmod>2026-09-25</lastmod>
@@ -40,7 +46,19 @@
   <!-- AEO & GEO Knowledge Base & Blog Articles -->
   <url>
     <loc>https://sudhirraiclasses.in/blogs/</loc>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/best-ca-classes-in-bokaro-steel-city.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://sudhirraiclasses.in/blogs/top-ca-cma-cs-coaching-bokaro-city-centre.html</loc>
+    <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
